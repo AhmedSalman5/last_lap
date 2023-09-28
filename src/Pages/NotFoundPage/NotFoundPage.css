@@ -1,0 +1,17 @@
+
+.notFoundPage{
+    width: 30%;
+    background-color: blueviolet;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(50, 17, 39);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
