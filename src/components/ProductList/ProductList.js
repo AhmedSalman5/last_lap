@@ -18,7 +18,7 @@ const ProductList = ({ productsList }) => {
     return productsList.length ? (
         productsList.map((product, index) => (
             <div key={product.id} className='product-card'>
-                <button onClick={(e)=>handleAddToFavourites(e,product)}>Favourites</button>
+                {/* <button onClick={(e)=>handleAddToFavourites(e,product)}>Favourites</button> */}
 
                 <Link to={`/product-details/${product.id}`}>
                     <div className="container mt-4">
